@@ -24,7 +24,7 @@ import LinkActive from 'next-link-active';
 
 export default () => (
   <LinkActive href="/some-url" passHref>
-    {active => <a style={{ color: active ? 'tomato' : 'black' }}>Link/a>}
+    {active => <a style={{ color: active ? 'tomato' : 'black' }}>Link</a>}
   </LinkActive>
 );
 ```
